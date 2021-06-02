@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    /* width: 100%;
+    height: 100%; */
+}
+
+/* .contact-main {
+    background: rgb(72, 137, 197);
+
+} */
+/*header section*/
+
+
+.navbar-brand {
+    padding-top: 0;
+    padding-left: 5rem;
+    padding-bottom: 0;
+    padding-right: 2rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    /*tlbr*/
+}
+
+.navbar {
+    padding: 0 2rem;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 1.6rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #0099ff;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    color: #0099ff;
+}
+
+/*section two*/
+.section2 {
+    background-image: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+
+
+}
+
+.section2 .intro {
+    padding-top: 15%;
+    padding-bottom: 20%;
+    padding-left: 9%;
+    padding-right: 5%;
+}
+
+.section2 .intro h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+
+}
+
+.section2 .intro .para {
+    font-size: 25px;
+
+}
+
+.section2 .intro .biz {
+    color: #0099ff;
+}
+
+.section2 .intro .head-button .video>a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.section2 .intro .head-button .video>a:hover {
+    color: #0099ff;
+}
+
+/*end section two*/
+/*end of header section*/
+
+/* main */
+.cards {
+    padding: 2rem;
+}
+
+.cards .card:hover {
+    color: white;
+    background: #0099ff;
+    cursor: pointer;
+}
+
+/* .card {
+    margin: 7rem 2rem;
+} */
+
+/*about us*/
+.section-1 {
+    margin: 5rem;
+
+}
+
+
+.para-3 {
+    border: 2px solid #0099ff;
+    color: #0099ff;
+    font-weight: 700;
+}
+
+.head-3 {
+    font-weight: bold;
+}
+
+/* .col-sm-12 .col-lg-6 .about-image {
+    margin: 3rem 5rem;
+} */
+.about-us-2 {
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.text-1 {
+    margin-top: 25px;
+}
+
+/*end about us*/
+
+/* progress bar */
+.pros-bars {
+    margin: 6rem 0;
+}
+
+/* end progress bar */
+
+/* image section */
+.image-section {
+    margin-bottom: 5rem;
+    background: #badce2;
+
+    opacity: 0.9;
+}
+
+.image-section img {
+    padding: 2rem 4rem;
+
+}
+
+/* end image section */
+
+/* faq */
+.faq {
+    margin: 2rem 5rem;
+}
+
+.faq .accordion .accordion-item .accordion-header .accordion-button:hover {
+    color: #0099ff;
+}
+
+/* end of faq */
+
+
+
+/* End of main */
