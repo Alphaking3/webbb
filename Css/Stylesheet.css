@@ -44,6 +44,8 @@
 
 .navbar-nav .nav-item .nav-link:hover {
     color: #0099ff;
+    /* -webkit-transition: 0.3s;
+    -webkit-transition-timing-function: ease; */
 }
 
 .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
@@ -54,6 +56,8 @@
 .section2 {
     background-image: url(../img/hero-bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+
 
 
 }
@@ -111,32 +115,49 @@
 } */
 
 /*about us*/
-.section-1 {
+
+/* not useful
+/* .section-1 {
     margin: 5rem;
 
 }
+*/
 
 
 .para-3 {
     border: 2px solid #0099ff;
     color: #0099ff;
     font-weight: 700;
+    /* border-radius: 60%; */
 }
 
+/*
 .head-3 {
     font-weight: bold;
-}
+} */
 
 /* .col-sm-12 .col-lg-6 .about-image {
     margin: 3rem 5rem;
 } */
-.about-us-2 {
+
+/*not useful
+/* .about-us-2 {
     margin-left: 3rem;
     margin-right: 2rem;
 }
+*/
+
 
 .text-1 {
-    margin-top: 25px;
+    margin-top: 3rem;
+}
+
+.first-sec {
+    margin: 35px;
+}
+
+.second-sec {
+    margin: 35px;
 }
 
 /*end about us*/
@@ -173,6 +194,15 @@
 }
 
 /* end of faq */
+
+/*contact us*/
+.contact-us .contact-text .form-group .btn-primary:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+
+}
+
+/*end contact us*/
 
 
 
